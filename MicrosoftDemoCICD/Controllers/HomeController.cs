@@ -27,6 +27,10 @@ namespace MicrosoftDemoCICD.Controllers
         {
             return View();
         }
+        public IActionResult hello()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
